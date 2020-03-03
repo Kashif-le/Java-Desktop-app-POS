@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="559.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFx.StockRequest">
+   <children>
+      <Pane prefHeight="498.0" prefWidth="559.0" style="-fx-background-color: #2A0033;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="206.0" layoutY="25.0" prefHeight="28.0" prefWidth="149.0" text="User Information" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <TableView layoutX="24.0" layoutY="76.0" prefHeight="244.0" prefWidth="513.0">
+              <columns>
+                <TableColumn prefWidth="69.0" text="Username" />
+                  <TableColumn prefWidth="46.0" text="Age" />
+                  <TableColumn prefWidth="57.0" text="Gender" />
+                  <TableColumn prefWidth="120.0" text="Contact .No" />
+                  <TableColumn prefWidth="135.0" text="CNIC" />
+                  <TableColumn prefWidth="84.0" text="Shift" />
+              </columns>
+            </TableView>
+            <Button layoutX="224.0" layoutY="341.0" mnemonicParsing="false" style="-fx-background-color: #FCBB31;" text="Show Information" />
+            <Button layoutX="466.0" layoutY="27.0" mnemonicParsing="false" onMouseClicked="#backtoadminhome" prefHeight="25.0" prefWidth="55.0" style="-fx-background-color: #CE2010;" text="Back" textFill="WHITE" />
+         </children></Pane>
+   </children>
+</AnchorPane>
